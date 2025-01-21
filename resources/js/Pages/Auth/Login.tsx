@@ -6,6 +6,11 @@ import TextInput from '@/Components/TextInput';
 import GuestLayout from '@/Layouts/GuestLayout';
 import { Head, Link, useForm } from '@inertiajs/react';
 import { FormEventHandler } from 'react';
+type LoginSchema = {
+    email: string;
+    password: string;
+    remember: boolean;
+}
 
 export default function Login({
     status,
@@ -14,7 +19,7 @@ export default function Login({
     status?: string;
     canResetPassword: boolean;
 }) {
-    const { data, setData, post, processing, errors, reset } = useForm({
+    const { data, setData, post, processing, errors, reset } = useForm<LoginSchema>({
         email: '',
         password: '',
         remember: false,
