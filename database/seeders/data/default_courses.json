@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Pemrograman Dasar",
+        "description": "Belajar pemrograman dasar dengan bahasa pemrograman Python",
+        "price" : 50000,
+        "is_active" : true,
+        "thumbnail": "data:image/png;base64,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"
+    },
+    {
+        "title": "Pemrograman Web",
+        "description": "Belajar pemrograman web dengan bahasa pemrograman PHP",
+        "price" : 75000,
+        "is_active" : true,
+        "thumbnail" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeeTI5LBQH1h86K2Q3B6FHPEAjC3svf1Y3pA&s"
+    },
+    {
+        "title": "Pemrograman Mobile",
+        "description": "Belajar pemrograman mobile dengan bahasa pemrograman Kotlin",
+        "price" : 100000,
+        "is_active" : true,
+        "thumbnail" : "https://badoystudio.com/wp-content/uploads/2022/04/pemrograman-mobile-Small.jpg"
+    }
+]
